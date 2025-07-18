@@ -10,6 +10,7 @@
 /* Shared style */
 .secondary-bg{
     background-color: #FFF8F3;
+    
 }
 .color-primary{
     color: #FD6E0A;
@@ -111,12 +112,12 @@ main section{
 .about {
 
    border-radius: 10px;
-   padding: 130px 150px;
+   padding: 10px 130px;
    text-align: center;
 }
 .all-about-content{
-    background-color: #ffffff;
-    padding: 10px 20px;
+    
+    padding: 10px 30px;
     border: 1px solid black;
 }
 .about-items{
@@ -173,8 +174,43 @@ main section{
 .btn-download-cv{
     margin-top: 50px;
 }
-.btn-primary:hover{
+/* .btn-primary:hover{
     color: rgb(0, 0, 0);
     background-color: #FFF8F3;
     border: 1px solid tomato;
+} */
+
+/* Footer Section */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+    text-align: left;
+
+}
+.footer-title{
+    text-align: left;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    padding-top: 20px;
+    word-spacing: 24px;
+}
+
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 18px;
 }
